@@ -110,7 +110,7 @@ void loop() {
         int httpCode = http.GET();
         http.end();
     }
-    delay(5000);
+    delay(15000);
 }
 ```
 ---
@@ -119,7 +119,7 @@ void loop() {
 
 1. Go to your ThingSpeak channel.
 2. Click on Private View → Your Data Fields.
-3. Sensor values will update every 5 seconds.
+3. Sensor values will update every 15 seconds.
 
 ## 📢 Author & License
 
